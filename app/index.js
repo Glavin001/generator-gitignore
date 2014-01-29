@@ -138,7 +138,6 @@ GitignoreGenerator.prototype.projectfiles = function projectfiles() {
     var pending = 0;
     var completionCallback = function() {
         //console.log("Done one.")
-        pending--;
         if (!pending)
         {
             // Write to file
@@ -159,8 +158,11 @@ GitignoreGenerator.prototype.projectfiles = function projectfiles() {
                 newGitIgnore += data;
                 newGitIgnore += "# ===== End "+filePath+" =====\n\n";
             }
+            pending--;    
             completionCallback();
         });
     }
-
+    //
+    completionCallback();
+    
 };
