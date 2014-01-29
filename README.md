@@ -1,4 +1,4 @@
-# generator-gitignore [![Build Status](https://secure.travis-ci.org/Glavin001/generator-gitignore.png?branch=master)](https://travis-ci.org/Glavin001/generator-gitignore)
+# generator-gitignore [![Build Status](https://secure.travis-ci.org/Glavin001/generator-gitignore.png?branch=master)](https://travis-ci.org/Glavin001/generator-gitignore) [![NPM version](https://badge.fury.io/js/generator-gitignore.png)](http://badge.fury.io/js/generator-gitignore)
 
 > Quickly create your .gitignore file from the most widely used configurations.
 > A generator for [Yeoman](http://yeoman.io).
