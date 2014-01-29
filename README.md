@@ -1,14 +1,62 @@
 # generator-gitignore [![Build Status](https://secure.travis-ci.org/Glavin001/generator-gitignore.png?branch=master)](https://travis-ci.org/Glavin001/generator-gitignore)
 
 > Quickly create your .gitignore file from the most widely used configurations.
+> A generator for [Yeoman](http://yeoman.io).
 
-A generator for [Yeoman](http://yeoman.io).
+To install [generator-gitignore](https://github.com/Glavin001/generator-gitignore) from [npm](https://npmjs.org/), run:
+
+```bash
+$ npm install -g generator-gitignore
+```
+
+Finally, initiate the generator:
+
+```bash
+$ yo gitignore
+```
 
 ## Features
 
-- Automatically downloads from https://github.com/github/gitignore and insert into .gitignore file.
-- Search https://github.com/github/gitignore
-- Suggests common configurations: Linux, Mac OSX, Windows, Vim, and more.
+- [&#x2713;] Automatically downloads from https://github.com/github/gitignore and insert into .gitignore file.
+- [&#x2713;] Search https://github.com/github/gitignore
+- [&#x2717;] Suggests common configurations: Linux, Mac OSX, Windows, Vim, and more.
+
+## Example
+
+```
+$ yo gitignore
+
+     _-----_
+    |       |
+    |--(o)--|   .--------------------------.
+   `---------´  |    Welcome to Yeoman,    |
+    ( _´U`_ )   |   ladies and gentlemen!  |
+    /___A___\   '__________________________'
+     |  ~  |
+   __'.___.'__
+ ´   `  |° ´ Y `
+
+
+[?] Choose a GitIgnore file: 
+  Global/VirtualEnv.gitignore 
+  Global/Windows.gitignore 
+  Global/XilinxISE.gitignore 
+❯ Global/vim.gitignore 
+  Global/webMethods.gitignore 
+  Go.gitignore 
+  Gradle.gitignore 
+(Move up and down to reveal more choices)
+
+[?] Choose a GitIgnore file: Global/vim.gitignore
+ conflict .gitignore
+[?] Overwrite .gitignore? overwrite
+    force .gitignore
+
+
+I'm all done. Running bower install & npm install for you to install the required dependencies. If this fails, try running the command yourself.
+
+```
+
 
 ## Getting Started
 
