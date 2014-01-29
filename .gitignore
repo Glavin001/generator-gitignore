@@ -1,2 +1,38 @@
 node_modules/
 temp/
+# ===== Start Global/OSX.gitignore =====
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+# ===== End Global/OSX.gitignore =====
+
+# ===== Start Node.gitignore =====
+lib-cov
+lcov.info
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+build
+.grunt
+
+node_modules
+# ===== End Node.gitignore =====
+
