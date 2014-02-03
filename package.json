@@ -1,6 +1,6 @@
 {
   "name": "generator-gitignore",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Yeoman generator to quickly create your .gitignore file from the most widely used configurations.",
   "keywords": [
     "yeoman-generator",

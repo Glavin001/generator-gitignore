@@ -11,7 +11,8 @@ var GitignoreGenerator = module.exports = function GitignoreGenerator(args, opti
     this.installDependencies({ skipInstall: options['skip-install'] });
   });
 
-  this.pkg = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
+  // Fixes #5. Should not require package.json file
+  //this.pkg = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
 };
 
 util.inherits(GitignoreGenerator, yeoman.generators.Base);
